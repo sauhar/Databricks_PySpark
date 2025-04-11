@@ -31,7 +31,7 @@ This notebook performs end-to-end data operations on a retail sales dataset — 
 | ➕ Duplicates Added for Testing           | Created manual duplicate records to test deduplication logic |
 | 🔁 Union of DataFrames                    | Appended new records using `.union()` |
 | 🧹 Cleaned up inconsistent columns        | Normalized `Item_Fat_Content` categories |
-| 📁 Saved output in Parquet + CSV formats | Used `.write()` with `mode('overwrite')` and `append` |
+| 📁 User Defined Function | Used udf with the defined function `my_udf` |
 
 ---
 
